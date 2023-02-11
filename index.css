@@ -1,0 +1,115 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+	margin-top: 12.5vh;
+	height: 87.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/bgw.jpg");
+	background-position-y: 50rem;
+}
+
+#profile {
+	height: 75%;
+}
+
+.img1 {
+	height: 250px;
+	width: 300px;
+}
+
+
+#gallery {
+	padding: 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	background-image: url(./images/code.png);
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.tools {
+	border: 5px solid #f2f2f2;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+	color: #007bff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 480px) {
+  .tools > h2 {
+    font-size: 25px;
+  }
+}
+
+#photos {
+	max-width: 15rem;
+}
+
+#MyHobbies {
+	font-size: 40px;
+}
+
+.MyHobbies {
+	background-color: rgba(135, 206, 235, 0.8);
+	padding: 20px;
+}
+
+#mainLink {
+	font-size: 40px;
+}
+
+#A1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+
+#textA1 {
+  font-size: 20px;
+}
+
+#A2 {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+
+#textA2 {
+  font-size: 20px;
+}
+
+#VisitMe {
+	font-size: 30px;
+}
+
+#AboutUs {
+	background-video: url(https://st2.depositphotos.com/2224022/6887/v/600/depositphotos_68871459-stock-video-abstract-technology-circuit-background-animation.mp4) background-repeat:repeat; ;
+}
